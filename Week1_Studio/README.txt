@@ -13,3 +13,11 @@ By the end of this studio:
 -Choose and install a suitable IDE (e.g., VS Code, PyCharm, Jupyter)
 -Understand the basics of navigating and writing code in Python
 -See Studio 1 PDF for full setup instructions and step-by-step breakdown.
+
+Order of operation:
+1. Test.py
+2. Tut1.py
+3. Tut1.2.py
+4. Tut1.3.py
+
+Also see tutorial 1 eda report.
