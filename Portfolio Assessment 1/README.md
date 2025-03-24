@@ -14,27 +14,30 @@ This project implements a complete machine learning pipeline using the Combined 
 ### Order of Execution
 Run the following scripts in sequence:
 
-1. `class_label.py`  
+1. `data_analyse.py`
+   - Read and construct graphs to shows correllations betweens feature data
+
+2. `class_label.py`  
    - Converts the continuous `PE` variable into 4 class labels using quantile binning
    - Saves: `converted_powerplant.csv`
 
-2. `normalise.py`  
+3. `normalise.py`  
    - Applies MinMax scaling to original features (`AT`, `V`, `AP`, `RH`)
    - Saves: `normalised_powerplant.csv`
 
-3. `feature.py`  
+4. `feature.py`  
    - Engineers new features (`AT_RH`, `V_AP`, `AT_squared`, `RH_inverse`)
    - Saves: `features_powerplant.csv`
 
-4. `slct_feature.py`  
+5. `slct_feature.py`  
    - Selects top 3 relevant features (`AT`, `V`, `RH`) from engineered dataset
    - Saves: `selected_feature_powerplant.csv`
 
-5. `slct_converted.py`  
+6. `slct_converted.py`  
    - Selects the same 3 features from raw dataset
    - Saves: `selected_converted_powerplant.csv`
 
-6. `decision_tree.py`  
+7. `decision_tree.py`  
    - Trains decision tree models on 5 different datasets
    - Outputs classification accuracy for each model
    - Saves: `model_accuracy_results.csv`
@@ -59,7 +62,6 @@ Run the following scripts in sequence:
 - 5 prepared datasets in CSV format
 - Final model accuracy comparison (`model_accuracy_results.csv`)
 - Visualizations (bar plots, histograms) displayed during execution
-- Full written summary in `Portfolio Report.pdf`
 
 ---
 
@@ -68,9 +70,3 @@ Run the following scripts in sequence:
 - All `.py` files assume that `Folds5x2_pp.csv` is located in the same working directory.
 - Scripts should be executed in the order listed to maintain data flow.
 - Results and visualizations are designed to be easily interpreted by the tutor reviewing this portfolio.
-
----
-
-For full documentation, see `Portfolio Report.pdf` or the GitHub repository:
-https://github.com/KyanS05/COS40007-2025
-
