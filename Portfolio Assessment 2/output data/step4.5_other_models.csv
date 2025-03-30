@@ -1,0 +1,4 @@
+model,train_test_accuracy,cross_validation_accuracy
+sgd,0.9944598337950139,0.9733402203856748
+random_forest,1.0,1.0
+mlp,1.0,0.9958333333333333

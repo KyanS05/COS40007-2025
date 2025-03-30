@@ -1,0 +1,2 @@
+model,train_test_accuracy,cross_validation_accuracy
+svm_pca_10,0.775623268698061,0.7518732782369145

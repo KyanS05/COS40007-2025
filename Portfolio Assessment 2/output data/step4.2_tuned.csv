@@ -1,0 +1,2 @@
+model,train_test_accuracy,cross_validation_accuracy,best_params
+svm_tuned,0.775623268698061,0.7518732782369145,"{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}"
