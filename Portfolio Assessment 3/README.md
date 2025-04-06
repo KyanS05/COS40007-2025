@@ -1,4 +1,4 @@
-# Week 4 Portfolio Assessment 3
+# Portfolio Assessment 3: Develop an AI model by your own decision
 **Course:** COS40007 – Artificial Intelligence for Engineering Projects  
 **Author:** Alvin Phan (KyanS05) – 104480130  
 **Assessment:** Portfolio 3  
