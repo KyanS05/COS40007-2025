@@ -1,0 +1,613 @@
+|--- acc_max_xy_left <= 0.48
+|   |--- acc_max_xy_left <= 0.31
+|   |   |--- acc_mean_xy_left <= 0.16
+|   |   |   |--- acc_max_xyz_left <= 0.99
+|   |   |   |   |--- acc_max_xy_left <= 0.15
+|   |   |   |   |   |--- acc_std_x_left <= 0.01
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_std_x_left >  0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- acc_max_xy_left >  0.15
+|   |   |   |   |   |--- class: 2
+|   |   |   |--- acc_max_xyz_left >  0.99
+|   |   |   |   |--- acc_std_zx_left <= 0.01
+|   |   |   |   |   |--- acc_std_zx_left <= 0.00
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_std_zx_left >  0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- acc_std_zx_left >  0.01
+|   |   |   |   |   |--- acc_std_yz_left <= 0.02
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_std_yz_left >  0.02
+|   |   |   |   |   |   |--- acc_std_z_left <= 0.04
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- acc_std_z_left >  0.04
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |--- acc_mean_xy_left >  0.16
+|   |   |   |--- acc_std_z_left <= 0.04
+|   |   |   |   |--- acc_max_zx_left <= 0.99
+|   |   |   |   |   |--- acc_mean_xy_left <= 0.29
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_mean_xy_left >  0.29
+|   |   |   |   |   |   |--- acc_max_xyz_left <= 1.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- acc_max_xyz_left >  1.00
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- acc_max_zx_left >  0.99
+|   |   |   |   |   |--- acc_max_xyz_left <= 0.99
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_max_xyz_left >  0.99
+|   |   |   |   |   |   |--- acc_max_zx_left <= 0.99
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_max_zx_left >  0.99
+|   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.23
+|   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.23
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.23
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_max_xy_left >  0.23
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- acc_std_z_left >  0.04
+|   |   |   |   |--- acc_mean_xy_left <= 0.19
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- acc_mean_xy_left >  0.19
+|   |   |   |   |   |--- class: 0
+|   |--- acc_max_xy_left >  0.31
+|   |   |--- acc_max_zx_left <= 0.94
+|   |   |   |--- acc_max_xyz_left <= 0.99
+|   |   |   |   |--- class: 2
+|   |   |   |--- acc_max_xyz_left >  0.99
+|   |   |   |   |--- acc_std_xyz_left <= 0.00
+|   |   |   |   |   |--- acc_max_xy_left <= 0.41
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_max_xy_left >  0.41
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- acc_std_xyz_left >  0.00
+|   |   |   |   |   |--- acc_max_xyz_left <= 0.99
+|   |   |   |   |   |   |--- acc_max_zx_left <= 0.93
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_max_zx_left >  0.93
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_max_xyz_left >  0.99
+|   |   |   |   |   |   |--- acc_std_zx_left <= 0.01
+|   |   |   |   |   |   |   |--- acc_std_x_left <= 0.02
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_std_x_left >  0.02
+|   |   |   |   |   |   |   |   |--- acc_std_x_left <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_std_x_left >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- acc_std_zx_left >  0.01
+|   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.01
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_std_yz_left >  0.01
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |--- acc_max_zx_left >  0.94
+|   |   |   |--- acc_std_x_left <= 0.02
+|   |   |   |   |--- acc_std_xyz_left <= 0.00
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- acc_std_xyz_left >  0.00
+|   |   |   |   |   |--- acc_std_x_left <= 0.01
+|   |   |   |   |   |   |--- acc_std_zx_left <= 0.01
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_std_zx_left >  0.01
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_std_x_left >  0.01
+|   |   |   |   |   |   |--- acc_max_xy_left <= 0.32
+|   |   |   |   |   |   |   |--- acc_std_z_left <= 0.11
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_std_z_left >  0.11
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_max_xy_left >  0.32
+|   |   |   |   |   |   |   |--- acc_max_zx_left <= 0.95
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_max_zx_left >  0.95
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.01
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.01
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |--- acc_std_x_left >  0.02
+|   |   |   |   |--- acc_max_xy_left <= 0.46
+|   |   |   |   |   |--- acc_std_z_left <= 0.01
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_std_z_left >  0.01
+|   |   |   |   |   |   |--- acc_std_xyz_left <= 0.05
+|   |   |   |   |   |   |   |--- acc_std_x_left <= 0.02
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_std_x_left >  0.02
+|   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.03
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_x_left <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_x_left >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.03
+|   |   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- acc_std_xyz_left >  0.05
+|   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.17
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.11
+|   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.11
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.17
+|   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.37
+|   |   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.35
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.35
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.37
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- acc_max_xy_left >  0.46
+|   |   |   |   |   |--- acc_std_x_left <= 0.04
+|   |   |   |   |   |   |--- acc_std_x_left <= 0.03
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_std_x_left >  0.03
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_std_x_left >  0.04
+|   |   |   |   |   |   |--- acc_std_y_left <= 0.11
+|   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.42
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.42
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- acc_std_y_left >  0.11
+|   |   |   |   |   |   |   |--- class: 0
+|--- acc_max_xy_left >  0.48
+|   |--- acc_std_yz_left <= 0.03
+|   |   |--- acc_mean_xy_left <= 0.99
+|   |   |   |--- acc_max_zx_left <= 0.85
+|   |   |   |   |--- acc_max_xy_left <= 0.77
+|   |   |   |   |   |--- acc_std_yz_left <= 0.01
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_std_yz_left >  0.01
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- acc_max_xy_left >  0.77
+|   |   |   |   |   |--- acc_std_z_left <= 0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_std_z_left >  0.00
+|   |   |   |   |   |   |--- acc_max_xy_left <= 0.84
+|   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.81
+|   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.01
+|   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.00
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.00
+|   |   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.80
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.01
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.81
+|   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 0.74
+|   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.01
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_max_zx_left >  0.74
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_max_xy_left >  0.84
+|   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.03
+|   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.04
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.04
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_std_yz_left >  0.03
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- acc_max_zx_left >  0.85
+|   |   |   |   |--- acc_std_x_left <= 0.00
+|   |   |   |   |   |--- acc_mean_xy_left <= 0.95
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_mean_xy_left >  0.95
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- acc_std_x_left >  0.00
+|   |   |   |   |   |--- acc_max_xyz_left <= 1.03
+|   |   |   |   |   |   |--- acc_std_y_left <= 0.02
+|   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.80
+|   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.03
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.80
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.81
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.81
+|   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.88
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.88
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.94
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |--- acc_std_y_left >  0.02
+|   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.02
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_std_zx_left >  0.02
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.01
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.01
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_x_left <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_x_left >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_max_xyz_left >  1.03
+|   |   |   |   |   |   |--- acc_std_zx_left <= 0.04
+|   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.01
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_std_yz_left >  0.01
+|   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.63
+|   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.53
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.57
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.53
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.63
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |--- acc_std_zx_left >  0.04
+|   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.01
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_std_yz_left >  0.01
+|   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.04
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.04
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |--- acc_mean_xy_left >  0.99
+|   |   |   |--- acc_mean_xy_left <= 1.00
+|   |   |   |   |--- acc_std_y_left <= 0.02
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- acc_std_y_left >  0.02
+|   |   |   |   |   |--- acc_mean_xy_left <= 1.00
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_mean_xy_left >  1.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- acc_mean_xy_left >  1.00
+|   |   |   |   |--- acc_max_xy_left <= 1.03
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- acc_max_xy_left >  1.03
+|   |   |   |   |   |--- acc_mean_xy_left <= 1.01
+|   |   |   |   |   |   |--- acc_std_zx_left <= 0.01
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_std_zx_left >  0.01
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_mean_xy_left >  1.01
+|   |   |   |   |   |   |--- class: 0
+|   |--- acc_std_yz_left >  0.03
+|   |   |--- acc_mean_xy_left <= 0.43
+|   |   |   |--- acc_max_xyz_left <= 1.99
+|   |   |   |   |--- acc_std_xyz_left <= 0.05
+|   |   |   |   |   |--- acc_max_xyz_left <= 1.08
+|   |   |   |   |   |   |--- acc_std_xyz_left <= 0.04
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_std_xyz_left >  0.04
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_max_xyz_left >  1.08
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- acc_std_xyz_left >  0.05
+|   |   |   |   |   |--- acc_mean_xy_left <= 0.21
+|   |   |   |   |   |   |--- acc_std_y_left <= 0.05
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- acc_std_y_left >  0.05
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_mean_xy_left >  0.21
+|   |   |   |   |   |   |--- acc_std_xyz_left <= 0.14
+|   |   |   |   |   |   |   |--- acc_max_xy_left <= 1.00
+|   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.07
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.07
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.10
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.10
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- acc_max_xy_left >  1.00
+|   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.14
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.14
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- acc_std_xyz_left >  0.14
+|   |   |   |   |   |   |   |--- acc_std_y_left <= 0.11
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.76
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.76
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_std_y_left >  0.11
+|   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.26
+|   |   |   |   |   |   |   |   |   |--- acc_std_x_left <= 0.37
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_x_left >  0.37
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.26
+|   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.18
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |--- acc_max_xyz_left >  1.99
+|   |   |   |   |--- acc_std_z_left <= 0.72
+|   |   |   |   |   |--- acc_max_xy_left <= 0.79
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_max_xy_left >  0.79
+|   |   |   |   |   |   |--- acc_std_yz_left <= 0.23
+|   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.37
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.37
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- acc_std_yz_left >  0.23
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- acc_std_z_left >  0.72
+|   |   |   |   |   |--- class: 2
+|   |   |--- acc_mean_xy_left >  0.43
+|   |   |   |--- acc_std_xyz_left <= 0.07
+|   |   |   |   |--- acc_mean_xy_left <= 1.00
+|   |   |   |   |   |--- acc_mean_xy_left <= 0.89
+|   |   |   |   |   |   |--- acc_std_zx_left <= 0.02
+|   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.01
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_std_zx_left >  0.01
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- acc_std_zx_left >  0.02
+|   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.28
+|   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.07
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 0.92
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 0.88
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  0.88
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  0.92
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.07
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.28
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.78
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.78
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- acc_mean_xy_left >  0.89
+|   |   |   |   |   |   |--- acc_mean_xy_left <= 0.94
+|   |   |   |   |   |   |   |--- acc_std_z_left <= 0.05
+|   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.04
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 1.09
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  1.09
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.04
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.06
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- acc_std_z_left >  0.05
+|   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.03
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.03
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.22
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.22
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- acc_mean_xy_left >  0.94
+|   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.01
+|   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.02
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.02
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.01
+|   |   |   |   |   |   |   |   |--- acc_std_x_left <= 0.11
+|   |   |   |   |   |   |   |   |   |--- acc_max_xy_left <= 0.98
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- acc_max_xy_left >  0.98
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |--- acc_std_x_left >  0.11
+|   |   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.12
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_z_left <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_z_left >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.12
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- acc_mean_xy_left >  1.00
+|   |   |   |   |   |--- acc_mean_xy_left <= 1.00
+|   |   |   |   |   |   |--- acc_max_zx_left <= 0.95
+|   |   |   |   |   |   |   |--- acc_mean_xy_left <= 1.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_mean_xy_left >  1.00
+|   |   |   |   |   |   |   |   |--- acc_std_x_left <= 0.05
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_std_x_left >  0.05
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- acc_max_zx_left >  0.95
+|   |   |   |   |   |   |   |--- acc_max_xyz_left <= 1.17
+|   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 1.01
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- acc_max_zx_left >  1.01
+|   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left <= 0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_xyz_left >  0.06
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- acc_max_xyz_left >  1.17
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_mean_xy_left >  1.00
+|   |   |   |   |   |   |--- acc_std_x_left <= 0.10
+|   |   |   |   |   |   |   |--- acc_std_z_left <= 0.05
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 1.01
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  1.01
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_std_z_left >  0.05
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- acc_std_x_left >  0.10
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- acc_std_xyz_left >  0.07
+|   |   |   |   |--- acc_std_x_left <= 0.02
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- acc_std_x_left >  0.02
+|   |   |   |   |   |--- acc_std_zx_left <= 0.21
+|   |   |   |   |   |   |--- acc_std_z_left <= 0.31
+|   |   |   |   |   |   |   |--- acc_max_zx_left <= 1.75
+|   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.21
+|   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.91
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 1.33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  1.33
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.91
+|   |   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.21
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_max_zx_left >  1.75
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- acc_std_z_left >  0.31
+|   |   |   |   |   |   |   |--- acc_max_xy_left <= 1.09
+|   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.35
+|   |   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.30
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.30
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.35
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- acc_max_xy_left >  1.09
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.49
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.49
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 1.14
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  1.14
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left <= 2.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_xyz_left >  2.56
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- acc_std_zx_left >  0.21
+|   |   |   |   |   |   |--- acc_max_zx_left <= 4.74
+|   |   |   |   |   |   |   |--- acc_std_z_left <= 0.15
+|   |   |   |   |   |   |   |   |--- acc_std_yz_left <= 0.21
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- acc_std_yz_left >  0.21
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_zx_left <= 1.43
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- acc_max_zx_left >  1.43
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- acc_std_z_left >  0.15
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left <= 0.45
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- acc_mean_xy_left >  0.45
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.20
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_zx_left >  0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.20
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_y_left <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- acc_std_y_left >  0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |--- acc_max_zx_left >  4.74
+|   |   |   |   |   |   |   |--- acc_max_xy_left <= 3.76
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- acc_max_xy_left >  3.76
+|   |   |   |   |   |   |   |   |--- class: 2
