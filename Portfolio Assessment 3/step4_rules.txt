@@ -1,0 +1,88 @@
+|--- TFE Out flow SP <= 2249.11
+|   |--- FFTE Steam pressure SP <= 119.98
+|   |   |--- TFE Out flow SP <= 2100.70
+|   |   |   |--- TFE Vacuum pressure SP <= -67.99
+|   |   |   |   |--- FFTE Feed flow SP <= 9395.00
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- FFTE Feed flow SP >  9395.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- TFE Vacuum pressure SP >  -67.99
+|   |   |   |   |--- TFE Production solids SP <= 49.75
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- TFE Production solids SP >  49.75
+|   |   |   |   |   |--- class: 2
+|   |   |--- TFE Out flow SP >  2100.70
+|   |   |   |--- FFTE Feed flow SP <= 9215.00
+|   |   |   |   |--- FFTE Feed flow SP <= 9185.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- FFTE Feed flow SP >  9185.00
+|   |   |   |   |   |--- class: 2
+|   |   |   |--- FFTE Feed flow SP >  9215.00
+|   |   |   |   |--- FFTE Steam pressure SP <= 106.43
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- FFTE Steam pressure SP >  106.43
+|   |   |   |   |   |--- class: 0
+|   |--- FFTE Steam pressure SP >  119.98
+|   |   |--- TFE Out flow SP <= 2036.03
+|   |   |   |--- FFTE Steam pressure SP <= 128.53
+|   |   |   |   |--- TFE Out flow SP <= 1926.43
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- TFE Out flow SP >  1926.43
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- FFTE Steam pressure SP >  128.53
+|   |   |   |   |--- TFE Steam pressure SP <= 96.90
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- TFE Steam pressure SP >  96.90
+|   |   |   |   |   |--- class: 2
+|   |   |--- TFE Out flow SP >  2036.03
+|   |   |   |--- TFE Production solids SP <= 2.50
+|   |   |   |   |--- class: 2
+|   |   |   |--- TFE Production solids SP >  2.50
+|   |   |   |   |--- TFE Out flow SP <= 2154.76
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- TFE Out flow SP >  2154.76
+|   |   |   |   |   |--- class: 1
+|--- TFE Out flow SP >  2249.11
+|   |--- FFTE Out steam temp SP <= 50.23
+|   |   |--- FFTE Steam pressure SP <= 125.21
+|   |   |   |--- TFE Out flow SP <= 2657.24
+|   |   |   |   |--- TFE Steam pressure SP <= 122.50
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- TFE Steam pressure SP >  122.50
+|   |   |   |   |   |--- class: 2
+|   |   |   |--- TFE Out flow SP >  2657.24
+|   |   |   |   |--- FFTE Production solids SP <= 42.14
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- FFTE Production solids SP >  42.14
+|   |   |   |   |   |--- class: 2
+|   |   |--- FFTE Steam pressure SP >  125.21
+|   |   |   |--- TFE Production solids SP <= 35.75
+|   |   |   |   |--- TFE Out flow SP <= 2872.08
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- TFE Out flow SP >  2872.08
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- TFE Production solids SP >  35.75
+|   |   |   |   |--- TFE Production solids SP <= 82.00
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- TFE Production solids SP >  82.00
+|   |   |   |   |   |--- class: 0
+|   |--- FFTE Out steam temp SP >  50.23
+|   |   |--- TFE Out flow SP <= 2717.04
+|   |   |   |--- FFTE Steam pressure SP <= 127.69
+|   |   |   |   |--- TFE Production solids SP <= 70.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- TFE Production solids SP >  70.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- FFTE Steam pressure SP >  127.69
+|   |   |   |   |--- class: 1
+|   |   |--- TFE Out flow SP >  2717.04
+|   |   |   |--- FFTE Feed flow SP <= 10250.00
+|   |   |   |   |--- FFTE Steam pressure SP <= 124.50
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- FFTE Steam pressure SP >  124.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- FFTE Feed flow SP >  10250.00
+|   |   |   |   |--- TFE Production solids SP <= 80.00
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- TFE Production solids SP >  80.00
+|   |   |   |   |   |--- class: 1
