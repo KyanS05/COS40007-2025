@@ -5,6 +5,12 @@
 
 ---
 
+## 🚨 **IMPORTANT**: Access Full Code, Model Outputs & Dataset via Google Drive
+**🔗 [Click here to open the Portfolio 4 folder](https://drive.google.com/drive/folders/1TtwhRUhblLzDKuNTeDRksYTKHiy_DETW?usp=sharing)**  
+All scripts, models (except large `.pth` files), test images, and results are hosted here due to GitHub's 100MB limit.
+
+---
+
 ## Learning Aim
 This portfolio task focuses on the creation of a complete deep learning pipeline for object detection, adapted from Studio 5. Tasks include dataset preparation, CNN and ResNet50 classification, Mask R-CNN model training, prediction visualization, log counting, and multi-class relabeling using Labelme.
 
@@ -91,4 +97,3 @@ python code/2.5_log_counts.py
 ---
 
 **GitHub Repo:** [https://github.com/KyanS05/COS40007-2025/tree/main/Portfolio%20Assessment%204](https://github.com/KyanS05/COS40007-2025/tree/main/Portfolio%20Assessment%204)
-
