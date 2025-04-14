@@ -46,7 +46,7 @@ By the end of this portfolio:
   - `2.5_log_counts.py`
 
 ### Task 3: Multi-Class Relabeling with `detected_log`
-- Folder: `task3_labelled/`
+- Folder: `log_data/task3_labelled/`
 - Duplicated the 10 test images used in Task 2
 - Manually updated broken log labels to `detected_log` in Labelme
 - Prepared the dataset for future multi-class training
@@ -84,7 +84,6 @@ python code/2.5_log_counts.py
 - `model_final.pth` – final trained R-CNN model
 - `metrics.json` – loss log from training
 - `visualised_outputs/` – images with bounding boxes and masks
-- `step4_rules.txt` – log count output from prediction script
 - Labelled JSONs with multi-class output (`log`, `detected_log`)
 
 ---
@@ -92,7 +91,7 @@ python code/2.5_log_counts.py
 ## Notes
 - All models run on CPU (macOS compatible)
 - Dataset labelled with Labelme, converted via `labelme2coco`
-- Output structured for submission and GitHub upload
+- Output structured for submission and GitHub upload however was uploaded onto Google Drive due to GitHub 100Mb limitation
 
 ---
 
