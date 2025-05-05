@@ -1,0 +1,4 @@
+train: G:/AI Proj/dataset/images/train
+val: G:/AI Proj/dataset/images/test
+nc: 1
+names: ['graffiti']
